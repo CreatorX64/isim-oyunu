@@ -1,0 +1,47 @@
+.mainMenu {
+  text-align: center;
+}
+
+.mainMenu button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 6rem; /* 96px */
+  text-align: center;
+  font-size: 3rem;
+}
+
+.title span {
+  display: block;
+}
+
+.title .flashTitle {
+  margin-bottom: 1rem;
+  opacity: 0;
+  font-size: 1.5rem;
+}
+
+.title.flash .flashTitle {
+  animation-name: flash;
+  animation-duration: 700ms;
+  animation-iteration-count: 4;
+}
+
+.playAgain {
+  margin-top: 3rem;
+}
+
+@keyframes flash {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

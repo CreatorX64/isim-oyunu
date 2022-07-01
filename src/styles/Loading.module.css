@@ -1,0 +1,11 @@
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.loading p {
+  max-width: 29rem; /* 464px */
+}

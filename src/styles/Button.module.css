@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem; /* 10px */
+  border: none;
+  padding: 1.125rem 1.75rem; /*  18px 28px */
+  font-size: var(--text-md);
+  cursor: pointer;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 0.875rem 0 var(--color-gray-400); /* 14px */
+  transition: all 100ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  transform: translateY(0.25rem); /* 4px */
+  box-shadow: 0 0.625rem 0 var(--color-gray-400); /* 10px */
+}
+
+.button:active {
+  transform: translateY(0.875rem); /* 14px */
+  box-shadow: 0 0 0 var(--color-gray-400);
+}

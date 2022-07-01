@@ -1,0 +1,4 @@
+.timer {
+  font-size: var(--text-5xl);
+  color: var(--color-gray-900);
+}

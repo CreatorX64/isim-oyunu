@@ -1,0 +1,15 @@
+.howToPlay {
+  text-align: left;
+  max-width: 900px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.howToPlay h1 {
+  margin-bottom: 1.5rem;
+}
+
+.howToPlay p {
+  line-height: 2;
+  font-size: 0.9rem;
+}

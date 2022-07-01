@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  /* We can add more shades in between, as needed... */
+  --color-gray-900: #111827;
+
+  --color-blue-100: #ccf7ff;
+  --color-blue-200: #93c5fd;
+
+  --color-red: #fb7185;
+  --color-green: #6ee7b7;
+
+  --font-family: "Press Start 2P", cursive;
+  --line-height: 1.5;
+  --font-color: var(--color-gray-100);
+  --body-bg-color: var(--color-gray-900);
+
+  --text-base: 1rem; /* 16px */
+  --text-md: 1.125rem; /* 18px */
+  --text-lg: 1.5rem; /* 24px */
+  --text-xl: 1.875rem; /* 30px */
+  --text-2xl: 2.25rem; /* 36px */
+  --text-3xl: 2.5rem; /* 40px */
+  --text-4xl: 3rem; /* 48px */
+  --text-5xl: 3.75rem; /* 60px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--font-color);
+  background-color: var(--body-bg-color);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: var(--font-family);
+  font-size: var(--text-md);
+  line-height: var(--line-height);
+}
+
+.link {
+  margin: 3rem 0;
+  display: block;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--color-blue-200);
+  background: none;
+}
+
+@media only screen and (max-width: 1080px) {
+  html {
+    font-size: 0.6rem;
+  }
+}
